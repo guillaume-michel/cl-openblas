@@ -4,7 +4,8 @@
   :author "Guillaume MICHEL <contact@orilla.fr>"
   :license "MIT license (see COPYING)"
   :depends-on ("alexandria"
-               "cl-autowrap")
+               "cl-autowrap"
+               "cffi")
   :pathname "src"
   :serial t
   :components ((:file "package")
