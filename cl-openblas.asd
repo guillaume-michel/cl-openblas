@@ -4,7 +4,7 @@
   :author "Guillaume MICHEL <contact@orilla.fr>"
   :license "MIT license (see COPYING)"
   :depends-on ("alexandria"
-               "cl-autowrap"
+               "cl-autowrap/libffi"
                "cffi")
   :pathname "src"
   :serial t
@@ -15,6 +15,7 @@
                (:file "blas_level2")
                (:file "blas_level3")
                (:file "openblas")
+               (:file "bench")
                (:module #:specs
                         :pathname "specs"
                         :components
